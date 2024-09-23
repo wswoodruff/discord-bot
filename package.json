@@ -18,9 +18,14 @@
   "dependencies": {
     "@hapi/boom": "9.x.x",
     "@hapipal/haute-couture": "4.x.x",
+    "@hapipal/schmervice": "^3.0.0",
     "@hapipal/schwifty": "6.x.x",
+    "axios": "^1.7.7",
+    "discord.js": "^14.15.3",
     "joi": "17.x.x",
-    "objection": "2.x.x"
+    "latest": "^0.2.0",
+    "objection": "2.x.x",
+    "pg": "^8.12.0"
   },
   "peerDependencies": {
     "knex": "0.21.x"
