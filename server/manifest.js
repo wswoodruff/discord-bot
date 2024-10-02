@@ -33,6 +33,7 @@ module.exports = new Confidence.Store({
             {
                 plugin: '../lib', // Main plugin
                 options: {
+                    nodeEnv: process.env.NODE_ENV,
                     token: process.env.DISCORD_TOKEN,
                     applicationId: process.env.DISCORD_APPLICATION_ID,
                     publicKey: process.env.DISCORD_PUBLIC_KEY,
