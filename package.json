@@ -10,8 +10,9 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node server",
     "dev": "node server",
+    "knex": "knex",
+    "start": "node server",
     "test": "lab -a @hapi/code -L",
     "lint": "eslint ."
   },
